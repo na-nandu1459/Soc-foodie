@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(139, 139, 129);
+}
+h1,p{
+    color: blue;
+    text-align: center;
+}

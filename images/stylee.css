@@ -1,0 +1,91 @@
+#header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+#header ul li {
+    float: left;
+}
+#header ul li a{
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+#header li a:hover{
+    background-color: gray;
+}
+#logo{
+    background-color: white;
+}
+#header input{
+  width: 500px;
+  margin-left: 200px;
+}
+.fashion ul{
+    
+        list-style-type: none;
+        margin: 0px;
+        padding: 3px;
+        overflow: hidden;
+        background-color:white;
+    }
+.fashion ul li {
+        float: left;
+    }
+.fashion ul li a{
+        display: block;
+        color:black;
+        text-align: center;
+        padding: 40px;
+        text-decoration: none;
+    }
+    .fashion .text{
+        font-weight: 100;
+    }
+    .first {
+        background-color:darkseagreen;
+        color: white;
+        text-align: center;
+    }
+    #a1 ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+    }
+    nav{
+        float:left;
+        width: 20%;
+        height:100%;
+        padding: 20px;
+        border-right: 2px solid black;
+    }
+    nav .nav1 p{
+color: black;
+    }
+    .categories{
+        margin:0;
+    }
+    .col{
+        flex-basis: 100%;
+        min-width: 50px;
+        margin-bottom: 50px;
+    }
+    .col img{
+        width: 50%;
+    }
+    .small-container{
+        max-width: 1080px;
+        margin:60px;
+        padding-left: 30px;
+        padding-right:20px ;
+        margin: 2%;
+    }
+    
+    
+    

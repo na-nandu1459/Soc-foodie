@@ -1,0 +1,96 @@
+*{
+   box-sizing: border-box;
+}
+body {
+    max-width: 1200px;
+    color: black;
+    padding: 25px 15px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+}
+img{
+    max-width: 100%;
+}
+.header {
+	text-align: center;
+	border-bottom: 8px double grey;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+.para1{
+    font-size: 15px;
+}
+.img1{
+ position: relative;
+}
+.image{
+    border: 6px solid #e8cfa9;
+	border-radius: 4px;
+}
+.ImageCaption {
+	font-size: 0.75rem;
+	position: absolute;
+	bottom: 0.5rem;
+	right: 1rem;
+	padding: 3px;
+	background-color: #222;
+	color: #e4e4e4;
+}
+.IntroText {
+	font-size: 1.6rem;
+	font-style: italic;
+    line-height: 35px;
+}
+.Method li:after {
+	content: "✼";
+	display: block;
+	text-align: center;
+	margin: 1rem 0 0.5rem 0;
+	color: #eee;
+}
+
+@media screen and (min-width: 800px) {
+	body {
+		border-left: 4px solid #f9f9f9;
+		border-right: 4px solid #f9f9f9;
+		padding: 1rem 2rem;
+	}
+
+	.Intro {
+		display: flex;
+		table-layout:fixed;
+		width: 100%;
+	}
+
+	.img1{
+        width: 50%;
+		vertical-align: middle;
+		text-align: center;
+    }
+     .IntroText {
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.IntroText {
+		padding: 8px;
+		font-size: 35px;
+		text-align: left;
+		position: relative;
+	}
+
+	.Ingredients {
+		font-size: 15px;
+		float: right;
+		padding: 16px;
+		margin: 0 0 0.5rem 1rem;
+		border-radius: 3px;
+		background-color: #ffffdf;
+		border: 2px solid #e8cfa9;
+	}
+	.Ingredients h3 {
+		margin: 0;
+	}
+}
